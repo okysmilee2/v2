@@ -157,8 +157,6 @@ function first_setup(){
     echo iptables-persistent iptables-persistent/autosave_v4 boolean true | debconf-set-selections
     echo iptables-persistent iptables-persistent/autosave_v6 boolean true | debconf-set-selections
     print_success "Directory Xray"
-    exit 1
-fi
 }
 
 # GEO PROJECT
