@@ -1,0 +1,5 @@
+REPO="wget https://raw.githubusercontent.com/okysmilee2/v2/main/"
+
+
+
+wget -O /root/.config/rclone/rclone.conf "${REPO}Cfg/rclone.conf"
